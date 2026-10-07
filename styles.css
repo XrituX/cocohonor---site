@@ -72,3 +72,15 @@
 .journey-photo-credit{position:absolute;right:5%;bottom:3%;font:6px var(--mono);letter-spacing:.06em;color:#697268;opacity:.8}
 .journey-photo-credit:hover{opacity:1;text-decoration:underline;text-underline-offset:2px}
 
+/* Blend the coconut photo into the warm card and make the craft motif legible. */
+.shell-icon{background:#e6dece}
+.shell-icon img{mix-blend-mode:multiply;filter:saturate(.86) contrast(1.08)}
+.maker-icon .maker-spark,.maker-icon .maker-center{display:none}
+.maker-icon .craft-needle,.maker-icon .craft-thread{fill:none;stroke:#52634f;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.maker-icon .craft-thread{stroke:#bf704a}
+.maker-icon .craft-eye{fill:none;stroke:#52634f;stroke-width:1.5}
+.medal-icon i{position:absolute;left:50%;top:50%;width:auto;height:auto;margin:0;padding:0;transform:translate(-50%,-50%);display:block;font-size:30px;line-height:1;font-weight:500}
+.journey-photo-credit{right:5%}
+.journey-craft-credit{position:absolute;left:5%;bottom:3%;font:6px var(--mono);letter-spacing:.04em;color:#697268;opacity:.8}
+.journey-craft-credit:hover{opacity:1;text-decoration:underline;text-underline-offset:2px}
+
