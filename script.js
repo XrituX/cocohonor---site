@@ -33,16 +33,4 @@
   window.addEventListener('scroll', updateProgress, { passive: true });
   updateProgress();
 
-  document.querySelectorAll('[data-tilt]').forEach((surface) => {
-    const image = surface.querySelector('img');
-    if (!image || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    surface.addEventListener('pointermove', (event) => {
-      if (event.pointerType === 'touch') return;
-      const box = surface.getBoundingClientRect();
-      const x = (event.clientX - box.left) / box.width - 0.5;
-      const y = (event.clientY - box.top) / box.height - 0.5;
-      image.style.transform = `rotateY(${x * 10}deg) rotateX(${-y * 8}deg) rotate(-3deg) scale(1.015)`;
-    });
-    surface.addEventListener('pointerleave', () => { image.style.transform = ''; });
-  });
 })();
