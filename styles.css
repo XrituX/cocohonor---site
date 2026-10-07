@@ -104,3 +104,11 @@
 .maker-icon .craft-grain{fill:none;stroke:#e6c994;stroke-width:1.4;stroke-linecap:round}
 .maker-icon .craft-stem{fill:none;stroke:#3e5948;stroke-width:2.2;stroke-linecap:round}
 .maker-icon .craft-leaf{fill:#708064;stroke:#3e5948;stroke-width:1.5;stroke-linejoin:round}
+/* Ensure the inline craft drawing wins over the retired photo rules. */
+body .partner-art .journey-maker .maker-icon>svg.craft-illustration{display:block!important;width:58px;height:58px;overflow:visible}
+body .partner-art .journey-maker .maker-icon>svg.craft-illustration .craft-hand{fill:#d7b478;stroke:#52634f;stroke-width:2.2;stroke-linejoin:round}
+body .partner-art .journey-maker .maker-icon>svg.craft-illustration .craft-shell{fill:#9a704b;stroke:#52634f;stroke-width:2}
+body .partner-art .journey-maker .maker-icon>svg.craft-illustration .craft-rim{fill:#d7b478;stroke:#52634f;stroke-width:1.8}
+body .partner-art .journey-maker .maker-icon>svg.craft-illustration .craft-grain{fill:none;stroke:#e6c994;stroke-width:1.4;stroke-linecap:round}
+body .partner-art .journey-maker .maker-icon>svg.craft-illustration .craft-stem{fill:none;stroke:#3e5948;stroke-width:2.2;stroke-linecap:round}
+body .partner-art .journey-maker .maker-icon>svg.craft-illustration .craft-leaf{fill:#708064;stroke:#3e5948;stroke-width:1.5}
