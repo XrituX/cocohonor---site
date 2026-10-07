@@ -43,3 +43,7 @@
 /* Keep the shell grain clipped to the shell while it gently rocks. */
 .shell-icon i{position:relative}
 
+
+/* Keep the three journey medallions level throughout their shared float. */
+.journey-icon,.journey-maker .journey-icon,.journey-medal .journey-icon{animation-delay:0s}
+
