@@ -60,3 +60,15 @@
 
 .hands-icon .craft-tool{fill:#d7b478;stroke:#52634f}
 
+
+/* Use a real coconut-shell photograph and a quiet maker's spark in the journey. */
+.shell-icon{overflow:hidden;background:#fff;transform:none;box-shadow:0 5px 13px rgba(42,37,28,.14)}
+.shell-icon img{width:100%;height:100%;display:block;object-fit:cover;object-position:80% 52%;border-radius:50%;filter:saturate(.8) contrast(1.04)}
+.shell-icon:after{inset:6px;border:1px solid rgba(234,207,162,.7);pointer-events:none}
+.maker-icon{background:#e0d1b5;box-shadow:inset 0 0 0 1px rgba(62,89,72,.15)}
+.maker-icon svg{width:34px;height:34px;overflow:visible}
+.maker-icon .maker-spark{fill:rgba(215,180,120,.24);stroke:#52634f;stroke-width:1.35;stroke-linejoin:round}
+.maker-icon .maker-center{fill:#bf704a}
+.journey-photo-credit{position:absolute;right:5%;bottom:3%;font:6px var(--mono);letter-spacing:.06em;color:#697268;opacity:.8}
+.journey-photo-credit:hover{opacity:1;text-decoration:underline;text-underline-offset:2px}
+
