@@ -47,3 +47,16 @@
 /* Keep the three journey medallions level throughout their shared float. */
 .journey-icon,.journey-maker .journey-icon,.journey-medal .journey-icon{animation-delay:0s}
 
+
+/* Return the partner illustration to its calm triangular composition. */
+.journey-source,.journey-medal{top:33%}.journey-maker{top:22%}
+.medal-icon i{display:grid;place-items:center;width:100%;height:100%;line-height:1;text-align:center}
+.hands-icon svg{width:43px;height:43px;overflow:visible}
+.hands-icon .craft-shell{fill:#9a704b;stroke:#52634f;stroke-width:1.1;stroke-linejoin:round}
+.hands-icon .craft-grain{fill:none;stroke:#e1c79c;stroke-width:1;stroke-linecap:round}
+.hands-icon .craft-tool{fill:none;stroke:#52634f;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+.hands-icon .craft-tool:first-of-type{fill:#d7b478;stroke:#52634f}
+
+
+.hands-icon .craft-tool{fill:#d7b478;stroke:#52634f}
+
